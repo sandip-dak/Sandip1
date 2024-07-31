@@ -6,6 +6,7 @@ namespace Sandip1.Controllers
     {
         public IActionResult Index()
         {
+            string str = "Hello World";
             return View();
         }
     }
