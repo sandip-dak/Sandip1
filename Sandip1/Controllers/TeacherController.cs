@@ -21,6 +21,7 @@ namespace Sandip1.Controllers
         public IActionResult Feedback()
         {
             string str = "Feedback details";
+
             return View();
         }
     }
