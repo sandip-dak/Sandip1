@@ -16,5 +16,12 @@ namespace Sandip1.Controllers
             string str = "Hello World";
             return View();
         }
+
+
+        public IActionResult Feedback()
+        {
+            string str = "Hello World";
+            return View();
+        }
     }
 }
