@@ -20,7 +20,7 @@ namespace Sandip1.Controllers
 
         public IActionResult Feedback()
         {
-            string str = "Hello World";
+            string str = "Feedback details";
             return View();
         }
     }
