@@ -8,5 +8,12 @@ namespace Sandip1.Controllers
         {
             return View();
         }
+
+
+        public IActionResult Contact()
+        {
+            string str = "Hello World";
+            return View();
+        }
     }
 }
